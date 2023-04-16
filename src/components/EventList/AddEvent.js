@@ -34,8 +34,8 @@ function AddEvent() {
             <form className='Event-form'>
                 <h3>Add Event</h3>
 
-                <label htmlFor=""> Select Event Type</label>
                 <select className='form-control' id='eventType' ref={EventTypeRef} >
+                    <option disabled value={''} selected> Select Event Type</option>
                     {eventTypeDict.map((data) => (
                         <option key={data.id} value={data.name}>{data.name}</option>
                     ))}

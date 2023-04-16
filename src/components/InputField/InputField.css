@@ -184,6 +184,8 @@
 } */
 .Event-form h3 {
   font-size: 32px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   font-weight: 500;
   line-height: 42px;
   text-align: center;
