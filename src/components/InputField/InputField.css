@@ -2,6 +2,22 @@
   margin: 0px;
   padding: 0px;
 }
+/* Set the color of the scroll bar */
+::-webkit-scrollbar {
+  background-color: #f5f5f5;
+}
+
+/* Set the width and height of the thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 10px;
+  border: 3px solid #f5f5f5;
+}
+
+/* On hover, set the color of the thumb */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #000;
+}
 
 .input-container {
   height: 50px;
@@ -208,7 +224,7 @@
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #808097;
   background-color: #d1d3e5;
   background-clip: padding-box;
   border: 1px solid #ced4da;
