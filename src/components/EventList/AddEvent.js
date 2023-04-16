@@ -31,7 +31,8 @@ function AddEvent() {
 
     return (
         <div className='Event-body'>
-            <form className='Event-form'>
+            <div className="Event-form">
+            <form >
                 <h3>Add Event</h3>
 
                 <select className='form-control' id='eventType' ref={EventTypeRef} >
@@ -52,6 +53,7 @@ function AddEvent() {
 
                 <button onClick={btnClick} className='Event-btn'>Submit Event</button>
             </form>
+            </div>
 
         </div>
     )
