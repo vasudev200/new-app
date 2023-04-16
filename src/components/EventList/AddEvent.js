@@ -45,7 +45,7 @@ function AddEvent() {
 
 {props.listType?(
 	<select id={props.id}>
-	{const etd.map((data)=>(
+	{etd.map((data)=>(
 		<option value={data[0]}>{data[1]}</option>
     ))}
 	</select>
