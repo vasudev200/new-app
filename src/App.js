@@ -3,9 +3,7 @@ import AddEvent from "./components/EventList/AddEvent";
 function App() {
   return (
     <div className="App">
-        
-        <AddEvent/>
-      
+      <AddEvent />
     </div>
   );
 }
