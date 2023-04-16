@@ -4,8 +4,8 @@ import InputField from '../InputField/InputField'
 
 
 function AddEvent() {
-    const mEventRef = useRef(null)
     const EventTypeRef = useRef(null)
+    const mEventRef = useRef(null)
     const sEventRef = useRef(null)
     const genderRef = useRef(null)
     const forERef = useRef(null)
@@ -13,8 +13,8 @@ function AddEvent() {
 
     const btnClick = (e) => {
         e.preventDefault()
-        console.log('Event Type : ' + mEventRef.current.value)
-        console.log('Major Event : ' + EventTypeRef.current.value)
+        console.log('Event Type : ' + EventTypeRef.current.value)
+        console.log('Major Event : ' + mEventRef.current.value)
         console.log('Sub Event : ' + sEventRef.current.value)
         console.log('Gender : ' + genderRef.current.value)
         console.log('Event for : ' + forERef.current.value)
