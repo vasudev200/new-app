@@ -12,7 +12,7 @@ const InputField = (props) => {
     // this.classList.toggle('fa-eye-slash');
   }
   return (
-
+    
     <div className="input-container ic2">
       <input id={props.id} className="input" ref={props.fRef} onChange={props.onChangeField} type={props.type} placeholder=" " required />
       {props.type === 'password' ?
